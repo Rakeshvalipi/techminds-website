@@ -48,7 +48,7 @@ export default function ServicesContent() {
                   ))}
                 </div>
                 <Link
-                  href={`/services/${service.id}`}
+                  href={`/services/${service.slug}`}
                   className="inline-flex items-center gap-2 px-6 py-3 gradient-primary text-primary-foreground rounded-xl font-semibold text-sm hover:opacity-90 transition-opacity"
                 >
                   Explore Service <ArrowRight size={16} />

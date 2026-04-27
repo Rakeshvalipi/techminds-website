@@ -95,8 +95,8 @@ export default function ContactContent() {
             <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} className="space-y-6">
               <h2 className="text-2xl font-bold text-foreground mb-6">Contact Information</h2>
               {[
-                { icon: <Mail size={20} />, label: 'Email', value: 'info@techsparkignite.com', href: 'mailto:info@techsparkignite.com' },
-                { icon: <Phone size={20} />, label: 'Phone', value: '+91 97104 99993', href: 'tel:+919710499993' },
+                { icon: <Mail size={20} />, label: 'Email', value: 'info@techmindsit.com', href: 'mailto:info@techmindsit.com' },
+                { icon: <Phone size={20} />, label: 'Phone', value: '+91 88862 69665', href: 'tel:+918886269665' },
                 { icon: <MapPin size={20} />, label: 'Address', value: 'Srinivasa Agraharam, Nellore, AP 524002', href: null },
               ].map((info, i) => (
                 <div key={i} className="flex items-start gap-4 bg-background border border-border rounded-2xl p-5">
@@ -140,7 +140,7 @@ export default function ContactContent() {
           <div className="rounded-2xl overflow-hidden border border-border h-[400px]">
             <iframe
               title="Tech minds IT Solutions Location"
-              src="https://www.google.com/maps?q=Srinivasa+Agraharam,+Nellore,+Andhra+Pradesh+524002&output=embed"
+              src="https://www.google.com/maps?q=Tech+minds,+Nellore,+Andhra+Pradesh&output=embed"
               className="w-full h-full"
               style={{ border: 0 }}
               loading="lazy"
@@ -150,7 +150,7 @@ export default function ContactContent() {
           </div>
           <div className="flex justify-center gap-4 mt-4">
             <a
-              href="https://www.google.com/maps/dir/?api=1&destination=Srinivasa+Agraharam,+Nellore,+Andhra+Pradesh+524002"
+              href="https://www.google.com/maps/dir/?api=1&destination=14.4508553,79.9880129"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 gradient-primary text-primary-foreground rounded-xl font-semibold text-sm hover:opacity-90 transition-opacity"
@@ -158,7 +158,7 @@ export default function ContactContent() {
               🚗 Get Directions
             </a>
             <a
-              href="https://www.google.com/maps/search/?api=1&query=Srinivasa+Agraharam,+Nellore,+Andhra+Pradesh+524002"
+              href="https://www.google.com/maps/place/Tech+minds/@14.4346802,69.962226,5z/data=!4m10!1m2!2m1!1stechminds!3m6!1s0x3a4c8d472299d6b3:0x6a7c9bb5ea6358df!8m2!3d14.4508553!4d79.9880129!15sCgl0ZWNobWluZHOSARJhZHZlcnRpc2luZ19hZ2VuY3ngAQA!16s%2Fg%2F11n56r6pz8?entry=ttu&g_ep=EgoyMDI2MDQyMi4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 border border-border text-foreground rounded-xl font-semibold text-sm hover:bg-secondary transition-colors"

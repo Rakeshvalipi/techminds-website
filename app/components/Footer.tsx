@@ -97,12 +97,12 @@ const Footer = () => {
             <address className="not-italic space-y-3 text-sm text-muted-foreground">
               <p>
                 <a href="mailto:info@techmindsit.com" className="hover:text-primary transition-colors">
-                  info@techsparkignite.com
+                  info@techmindsit.com
                 </a>
               </p>
               <p>
-                <a href="tel:+919710499993" className="hover:text-primary transition-colors">
-                  +91 97104 99993
+                <a href="tel:+918886269665" className="hover:text-primary transition-colors">
+                  +91 88862 69665
                 </a>
               </p>
               <p>Srinivasa Agraharam, Nellore, AP 524002</p>

@@ -118,9 +118,9 @@ const jsonLd = {
       ],
       contactPoint: {
         '@type': 'ContactPoint',
-        telephone: '+91-97104-99993',
+        telephone: '+91-88862-69665',
         contactType: 'sales',
-        email: 'info@techsparkignite.com',
+        email: 'info@techmindsit.com',
         areaServed: 'IN',
         availableLanguage: ['English', 'Hindi', 'Telugu'],
       },
@@ -131,8 +131,8 @@ const jsonLd = {
       name: 'Tech minds IT Solutions',
       image: 'https://techsparkignite.com/images/logo.png',
       url: 'https://techsparkignite.com',
-      telephone: '+91-97104-99993',
-      email: 'info@techsparkignite.com',
+      telephone: '+91-88862-69665',
+      email: 'info@techmindsit.com',
       priceRange: '₹₹',
       address: {
         '@type': 'PostalAddress',
@@ -144,8 +144,8 @@ const jsonLd = {
       },
       geo: {
         '@type': 'GeoCoordinates',
-        latitude: 14.4426,
-        longitude: 79.9865,
+        latitude: 14.4508553,
+        longitude: 79.9880129,
       },
       openingHoursSpecification: [
         {

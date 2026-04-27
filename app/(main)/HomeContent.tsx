@@ -16,12 +16,14 @@ import {
   Star,
   Code,
   Rocket,
-  DollarSign,
+  IndianRupee,
   Target,
   Handshake,
   Lightbulb,
   GraduationCap,
 } from 'lucide-react';
+
+import { servicesData } from '@/lib/data/servicesData';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -31,13 +33,6 @@ const fadeUp = {
 const stagger = {
   visible: { transition: { staggerChildren: 0.15 } },
 };
-
-const services = [
-  { id: 1, icon: '💻', title: 'Web Development', desc: 'Modern, responsive websites and web apps built with cutting-edge tech.', image: '/services/web_development.png' },
-  { id: 2, icon: '📱', title: 'App Development', desc: 'Cross-platform mobile apps with native performance and beautiful UI.', image: '/services/app_development.png' },
-  { id: 3, icon: '📊', title: 'Digital Marketing', desc: 'Data-driven strategies for SEO, ads, and social media growth.', image: '/services/digital_marketing.png' },
-  { id: 4, icon: '🛠️', title: 'CRM Products', desc: 'Custom CRM systems to manage leads, sales, and team collaboration.', image: '/services/crm_products.png' },
-];
 
 const projects = [
   { title: 'E-Commerce Platform', category: 'Web Development', tech: ['React', 'Node.js', 'MongoDB'], color: 'bg-primary' },
@@ -50,7 +45,7 @@ const projects = [
 
 const whyUs = [
   { icon: <Rocket size={24} />, title: 'Startup Energy', desc: 'Fresh ideas, fast execution, young & hungry team.' },
-  { icon: <DollarSign size={24} />, title: 'Affordable Pricing', desc: 'Competitive rates without compromising quality.' },
+  { icon: <IndianRupee size={24} />, title: 'Affordable Pricing', desc: 'Competitive rates without compromising quality.' },
   { icon: <Target size={24} />, title: 'Result Oriented', desc: 'ROI, conversions, and growth metrics that matter.' },
   { icon: <Handshake size={24} />, title: 'Personal Attention', desc: 'Direct team access, no middlemen, fast communication.' },
   { icon: <Lightbulb size={24} />, title: 'Modern Tech Stack', desc: 'React, Node.js, Flutter, AI tools — always up-to-date.' },
@@ -220,7 +215,7 @@ export default function HomeContent() {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2">Our Services</h2>
           </motion.div>
           <motion.div variants={stagger} initial="hidden" whileInView="visible" viewport={{ once: true }} className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {services.map((s) => (
+            {servicesData.map((s) => (
               <motion.div
                 key={s.id}
                 variants={fadeUp}
@@ -228,10 +223,10 @@ export default function HomeContent() {
                 className="bg-background border border-border rounded-2xl overflow-hidden transition-all hover:shadow-card-hover flex flex-col group relative hover:border-primary/50"
               >
                 <div className="relative h-48 w-full overflow-hidden">
-                  <Image 
-                    src={s.image} 
-                    alt={s.title} 
-                    fill 
+                  <Image
+                    src={`/services/${s.slug}.png`}
+                    alt={s.title}
+                    fill
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent opacity-90" />
@@ -242,8 +237,8 @@ export default function HomeContent() {
                 </div>
                 <div className="p-6 pt-2 flex-1 flex flex-col relative z-10">
                   <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">{s.title}</h3>
-                  <p className="text-sm text-muted-foreground mb-6 flex-1 leading-relaxed">{s.desc}</p>
-                  <Link href={`/services/${s.id}`} className="text-primary text-sm font-semibold hover:opacity-80 inline-flex items-center gap-1 mt-auto group-hover:gap-2 transition-all">
+                  <p className="text-sm text-muted-foreground mb-6 flex-1 leading-relaxed">{s.shortDesc}</p>
+                  <Link href={`/services/${s.slug}`} className="text-primary text-sm font-semibold hover:opacity-80 inline-flex items-center gap-1 mt-auto group-hover:gap-2 transition-all">
                     Learn More <ArrowRight size={14} />
                   </Link>
                 </div>

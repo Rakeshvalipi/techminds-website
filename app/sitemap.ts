@@ -36,9 +36,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  const serviceIds = ['1', '2', '3', '4'];
-  const servicePages: MetadataRoute.Sitemap = serviceIds.map((id) => ({
-    url: `${baseUrl}/services/${id}`,
+  const serviceSlugs = ['web-development', 'app-development', 'digital-marketing', 'crm-products'];
+  const servicePages: MetadataRoute.Sitemap = serviceSlugs.map((slug) => ({
+    url: `${baseUrl}/services/${slug}`,
     lastModified: new Date(),
     changeFrequency: 'monthly',
     priority: 0.8,

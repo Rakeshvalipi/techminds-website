@@ -1,6 +1,7 @@
 export const servicesData = [
   {
     id: 1,
+    slug: "web-development",
     title: "Web Development",
     icon: "💻",
     statsLabel: "Modern Tech Stack",
@@ -26,6 +27,7 @@ export const servicesData = [
   },
   {
     id: 2,
+    slug: "app-development",
     title: "App Development",
     icon: "📱",
     statsLabel: "Cross-Platform",
@@ -51,6 +53,7 @@ export const servicesData = [
   },
   {
     id: 3,
+    slug: "digital-marketing",
     title: "Digital Marketing",
     icon: "📊",
     statsLabel: "Data-Driven Results",
@@ -76,6 +79,7 @@ export const servicesData = [
   },
   {
     id: 4,
+    slug: "crm-products",
     title: "CRM Products",
     icon: "🛠️",
     statsLabel: "Boost Productivity",
