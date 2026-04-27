@@ -224,7 +224,7 @@ export default function HomeContent() {
               >
                 <div className="relative h-48 w-full overflow-hidden">
                   <Image
-                    src={`/services/${s.slug}.png`}
+                    src={`/services/${s.slug.replace(/-/g, '_')}.png`}
                     alt={s.title}
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
