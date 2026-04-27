@@ -101,7 +101,7 @@ export default function HomeContent() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight"
           >
-            Your Vision,
+            Your Vision
             <br />
             <span className="text-gradient-primary">
               <TextType 

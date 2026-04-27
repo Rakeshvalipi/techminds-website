@@ -1,8 +1,8 @@
 {
   "/manifest.webmanifest/route": "app/manifest.webmanifest/route.js",
-  "/(main)/page": "app/(main)/page.js",
-  "/(main)/services/page": "app/(main)/services/page.js",
+  "/(main)/contact/page": "app/(main)/contact/page.js",
   "/(main)/about/page": "app/(main)/about/page.js",
-  "/(main)/careers/page": "app/(main)/careers/page.js",
-  "/(main)/contact/page": "app/(main)/contact/page.js"
+  "/(main)/services/page": "app/(main)/services/page.js",
+  "/(main)/services/[slug]/page": "app/(main)/services/[slug]/page.js",
+  "/(main)/page": "app/(main)/page.js"
 }
