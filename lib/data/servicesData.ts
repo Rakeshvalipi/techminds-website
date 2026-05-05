@@ -5,8 +5,8 @@ export const servicesData = [
     title: "Web Development",
     icon: "💻",
     statsLabel: "Modern Tech Stack",
-    shortDesc: "Custom, responsive websites and web applications built with cutting-edge technologies.",
-    description: "We build fast, scalable, and beautiful web applications using React, Next.js, Node.js, and modern cloud infrastructure. From landing pages to complex platforms.",
+    shortDesc: "Custom website development in Nellore by professional web developers. Responsive websites built with React, Next.js.",
+    description: "Best IT company in Nellore offers custom website development, ecommerce website development Nellore using React, Next.js, Node.js. Web development company in Nellore for landing pages to complex platforms.",
     features: [
       "React & Next.js Development",
       "Node.js Backend Solutions",
@@ -31,8 +31,8 @@ export const servicesData = [
     title: "App Development",
     icon: "📱",
     statsLabel: "Cross-Platform",
-    shortDesc: "Native and cross-platform mobile apps that deliver exceptional user experiences.",
-    description: "Build beautiful, high-performance mobile applications for iOS and Android using React Native and Flutter, with seamless backend integration.",
+    shortDesc: "Mobile app developers in Nellore create Flutter apps, React Native apps with exceptional UX. App development company in Nellore.",
+    description: "App development company in Nellore builds high-performance mobile apps for iOS/Android using React Native, Flutter apps with seamless backend integration. Mobile app developers Nellore.",
     features: [
       "React Native Development",
       "Flutter Cross-Platform Apps",
@@ -57,8 +57,8 @@ export const servicesData = [
     title: "Digital Marketing",
     icon: "📊",
     statsLabel: "Data-Driven Results",
-    shortDesc: "Strategic digital marketing that drives traffic, engagement, and conversions.",
-    description: "Comprehensive digital marketing services including SEO, paid advertising, social media management, and data-driven campaign optimization.",
+    shortDesc: "Digital marketing services Nellore: SEO services in Nellore, Google ranking, social media marketing Nellore driving traffic & conversions.",
+    description: "SEO services Nellore, digital marketing agency Nellore offering PPC services Nellore, Instagram marketing Nellore, content marketing Nellore, social media marketing Nellore.",
     features: [
       "Search Engine Optimization (SEO)",
       "Google Ads & PPC Campaigns",
@@ -83,8 +83,8 @@ export const servicesData = [
     title: "CRM Products",
     icon: "🛠️",
     statsLabel: "Boost Productivity",
-    shortDesc: "Custom CRM solutions that streamline your sales pipeline and customer management.",
-    description: "Tailored CRM systems with lead management, sales pipeline tracking, automated follow-ups, and comprehensive reporting dashboards.",
+    shortDesc: "Custom software solutions in Nellore: CRM products streamlining sales pipeline and customer management for Nellore businesses.",
+    description: "Custom software solutions by software company in Nellore: Tailored CRM with lead management, sales tracking, automated follow-ups, reporting dashboards.",
     features: [
       "Lead & Contact Management",
       "Sales Pipeline Tracking",

@@ -3,19 +3,19 @@ import JsonLd from '@/app/components/JsonLd';
 import CareersContent from './CareersContent';
 
 export const metadata: Metadata = {
-  title: 'Careers & Internships',
+  title: 'IT Internships Nellore | Fresher Jobs | Student Platform Nellore',
   description:
-    'Join Tech minds IT Solutions! Explore full-time jobs and internship programs in web development, app development, digital marketing, data analytics, and more in Nellore.',
+    'Internship for students Nellore, IT internships Nellore, fresher jobs Nellore, IT training in Nellore. Student platform Nellore, coding classes in Nellore.',
   keywords: [
-    'Tech minds IT Solutions careers',
-    'IT jobs Nellore',
-    'software developer jobs',
-    'internships Nellore',
-    'web development internship',
-    'app development internship',
-    'digital marketing jobs',
-    'MERN stack internship',
-    'tech jobs Andhra Pradesh',
+    'internship for students Nellore',
+    'IT internships Nellore',
+    'fresher jobs Nellore',
+    'IT training in Nellore',
+    'coding classes in Nellore',
+    'full stack developer Nellore',
+    'frontend developer Nellore',
+    'backend developer Nellore',
+    'Python developer Nellore',
   ],
   alternates: {
     canonical: '/careers',

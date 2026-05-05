@@ -4,7 +4,7 @@ export const jobsData = [
     title: "Frontend Developer",
     experience: "0–2 years",
     location: "Nellore / Remote",
-    description: "Build responsive, performant web interfaces using React and modern frontend technologies.",
+    description: "Full stack developer Nellore / Frontend developer Nellore: Build responsive web interfaces using React. Fresher jobs Nellore.",
     skills: ["React", "TypeScript", "Tailwind CSS", "REST APIs", "Git"],
     responsibilities: [
       "Develop and maintain web applications using React",
@@ -19,7 +19,7 @@ export const jobsData = [
     title: "Backend Developer",
     experience: "0–2 years",
     location: "Nellore / Remote",
-    description: "Design and implement scalable server-side logic, APIs, and database systems.",
+    description: "Backend developer Nellore: Design scalable server-side logic, APIs for Python developer Nellore. IT jobs Nellore.",
     skills: ["Node.js", "Express", "PostgreSQL", "MongoDB", "REST APIs"],
     responsibilities: [
       "Build and maintain RESTful APIs",
@@ -34,7 +34,7 @@ export const jobsData = [
     title: "Mobile App Developer",
     experience: "0–2 years",
     location: "Nellore / Remote",
-    description: "Create cross-platform mobile apps with beautiful UI and native performance.",
+    description: "React developer in Nellore / Mobile developer: Create cross-platform mobile apps. Fresher jobs Nellore.",
     skills: ["React Native", "Flutter", "Firebase", "REST APIs", "App Store Deployment"],
     responsibilities: [
       "Develop mobile apps for iOS and Android",
@@ -49,7 +49,7 @@ export const jobsData = [
     title: "Digital Marketing Executive",
     experience: "0–2 years",
     location: "Nellore",
-    description: "Drive brand visibility and lead generation through data-driven digital marketing strategies.",
+    description: "Digital marketing jobs Nellore: Drive brand visibility through SEO services in Nellore, social media.",
     skills: ["SEO", "Google Ads", "Social Media Marketing", "Analytics", "Content Strategy"],
     responsibilities: [
       "Plan and execute digital marketing campaigns",
@@ -62,13 +62,13 @@ export const jobsData = [
 ];
 
 export const internshipsData = [
-  { id: "java-intern", role: "Java Development Intern", duration: "3–6 Months", stipend: "Performance Based", skills: ["Core Java", "Spring Boot", "MySQL", "REST APIs"], description: "Learn enterprise Java development with hands-on project experience." },
-  { id: "python-intern", role: "Python Development Intern", duration: "3–6 Months", stipend: "Performance Based", skills: ["Python", "Django/Flask", "Data Structures", "APIs"], description: "Build Python applications and explore data processing, automation, and web frameworks." },
-  { id: "data-analytics-intern", role: "Data Analytics Intern", duration: "3–6 Months", stipend: "Performance Based", skills: ["Python", "SQL", "Power BI", "Excel"], description: "Analyze datasets, create dashboards, and derive actionable business insights." },
-  { id: "web-dev-intern", role: "Web Development Intern", duration: "3–6 Months", stipend: "Performance Based", skills: ["HTML/CSS", "JavaScript", "React", "Tailwind CSS"], description: "Build responsive websites and web applications using modern frontend technologies." },
-  { id: "mobile-dev-intern", role: "Mobile App Development Intern", duration: "3–6 Months", stipend: "Performance Based", skills: ["React Native", "Flutter", "Firebase", "REST APIs"], description: "Develop cross-platform mobile applications with real-world project exposure." },
-  { id: "digital-marketing-intern", role: "Digital Marketing Intern", duration: "3 Months", stipend: "Performance Based", skills: ["SEO", "Google Ads", "Social Media", "Content Writing"], description: "Execute digital marketing campaigns and learn growth strategies." },
-  { id: "uiux-intern", role: "UI/UX Design Intern", duration: "3 Months", stipend: "Performance Based", skills: ["Figma", "Adobe XD", "User Research", "Prototyping"], description: "Design intuitive user interfaces and experiences for web and mobile." },
-  { id: "mern-intern", role: "MERN Stack Intern", duration: "3–6 Months", stipend: "Performance Based", skills: ["MongoDB", "Express", "React", "Node.js"], description: "Build full-stack web applications using the MERN technology stack." },
+  { id: "java-intern", role: "Java Development Intern", duration: "3–6 Months", stipend: "Performance Based", skills: ["Core Java", "Spring Boot", "MySQL", "REST APIs"], description: "Internship for students Nellore: Learn enterprise Java development. IT internships Nellore, student platform Nellore." },
+  { id: "python-intern", role: "Python Development Intern", duration: "3–6 Months", stipend: "Performance Based", skills: ["Python", "Django/Flask", "Data Structures", "APIs"], description: "IT internships Nellore Python: Build Python apps. Internship for students Nellore, coding classes in Nellore." },
+  { id: "data-analytics-intern", role: "Data Analytics Intern", duration: "3–6 Months", stipend: "Performance Based", skills: ["Python", "SQL", "Power BI", "Excel"], description: "Analyze datasets, create dashboards, and derive actionable business insights. IT training in Nellore." },
+  { id: "web-dev-intern", role: "Web Development Intern", duration: "3–6 Months", stipend: "Performance Based", skills: ["HTML/CSS", "JavaScript", "React", "Tailwind CSS"], description: "Build responsive websites and web applications using modern frontend technologies. Fresher jobs Nellore." },
+  { id: "mobile-dev-intern", role: "Mobile App Development Intern", duration: "3–6 Months", stipend: "Performance Based", skills: ["React Native", "Flutter", "Firebase", "REST APIs"], description: "Develop cross-platform mobile applications with real-world project exposure. IT internships Nellore." },
+  { id: "digital-marketing-intern", role: "Digital Marketing Intern", duration: "3 Months", stipend: "Performance Based", skills: ["SEO", "Google Ads", "Social Media", "Content Writing"], description: "Execute digital marketing campaigns and learn growth strategies. Career guidance Nellore." },
+  { id: "uiux-intern", role: "UI/UX Design Intern", duration: "3 Months", stipend: "Performance Based", skills: ["Figma", "Adobe XD", "User Research", "Prototyping"], description: "Design intuitive user interfaces and experiences for web and mobile. Student community Nellore." },
+  { id: "mern-intern", role: "MERN Stack Intern", duration: "3–6 Months", stipend: "Performance Based", skills: ["MongoDB", "Express", "React", "Node.js"], description: "Build full-stack web applications using the MERN technology stack. Online learning platform Nellore." },
 ];
 

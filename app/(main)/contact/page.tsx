@@ -3,9 +3,9 @@ import JsonLd from '@/app/components/JsonLd';
 import ContactContent from './ContactContent';
 
 export const metadata: Metadata = {
-  title: 'Contact Us',
+  title: 'Contact IT Company in Nellore | Tech Minds IT Solutions',
   description:
-    'Get in touch with Tech Minds IT Solutions for web development, app development, CRM products, and digital marketing services. Located in Nellore, Andhra Pradesh.',
+    'Contact IT company in Nellore, software company in Nellore. Tech Minds IT Solutions address, phone, email, contact form in Nellore Andhra Pradesh.',
   keywords: [
     'Contact Tech Minds IT Solutions',
     'IT company Nellore contact',

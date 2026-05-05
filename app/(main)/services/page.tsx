@@ -3,20 +3,20 @@ import JsonLd from '@/app/components/JsonLd';
 import ServicesContent from './ServicesContent';
 
 export const metadata: Metadata = {
-  title: 'Our Services',
+  title: 'Web Development Company in Nellore | App Development | SEO Services',
   description:
-    'Explore Tech minds IT Solutions services: Web Development, App Development, Digital Marketing, and CRM Products. Comprehensive IT solutions tailored for your business in Nellore.',
+    'Web development company in Nellore, app development company in Nellore, digital marketing services Nellore, SEO services in Nellore. Website design services Nellore.',
   keywords: [
-    'web development services',
-    'app development services',
-    'digital marketing services',
-    'CRM products',
+    'web development company in Nellore',
+    'app development company in Nellore',
+    'digital marketing services Nellore',
+    'SEO services in Nellore',
+    'website design services Nellore',
+    'ecommerce website development Nellore',
+    'mobile app developers Nellore',
     'React development',
-    'Next.js development',
     'Flutter apps',
-    'React Native development',
-    'SEO services Nellore',
-    'IT services Andhra Pradesh',
+    'React Native',
   ],
   alternates: {
     canonical: '/services',

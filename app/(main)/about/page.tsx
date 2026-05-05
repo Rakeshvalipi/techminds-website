@@ -3,15 +3,15 @@ import JsonLd from '@/app/components/JsonLd';
 import AboutContent from './AboutContent';
 
 export const metadata: Metadata = {
-  title: 'About Us',
+  title: 'About Tech Minds IT Solutions | Trusted IT company Nellore',
   description:
-    'Learn about Tech minds IT Solutions — a fresh IT company in Nellore, Andhra Pradesh delivering web development, app development, CRM products, and digital marketing with startup energy.',
+    'About Tech Minds IT Solutions - Trusted software company Nellore, professional developers Nellore, Andhra Pradesh tech company. Company background, mission vision.',
   keywords: [
-    'About Tech minds IT Solutions',
-    'IT company Nellore',
-    'tech startup Andhra Pradesh',
-    'web development team',
-    'software company India',
+    'IT company in Nellore',
+    'trusted software company Nellore',
+    'professional developers Nellore',
+    'Andhra Pradesh tech company',
+    'Tech Minds IT Solutions about',
   ],
   alternates: {
     canonical: '/about',
