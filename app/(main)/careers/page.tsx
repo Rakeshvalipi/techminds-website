@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     canonical: '/careers',
   },
   openGraph: {
-    url: 'https://techsparkignite.com/careers',
+    url: 'https://techmindsit.com/careers',
     title: 'Careers & Internships — Tech minds IT Solutions',
     description:
       'Join Tech minds IT Solutions! Explore full-time jobs and internship programs in web development, app development, and more.',
@@ -53,8 +53,8 @@ const careersJsonLd = {
   hiringOrganization: {
     '@type': 'Organization',
     name: 'Tech minds IT Solutions',
-    sameAs: 'https://techsparkignite.com',
-    logo: 'https://techsparkignite.com/images/logo.png',
+    sameAs: 'https://techmindsit.com',
+    logo: 'https://techmindsit.com/images/logo.png',
   },
   jobLocation: {
     '@type': 'Place',
@@ -78,5 +78,4 @@ export default function CareersPage() {
     </>
   );
 }
-
 

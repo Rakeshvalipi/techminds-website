@@ -20,7 +20,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://techsparkignite.com'),
+  metadataBase: new URL('https://techmindsit.com'),
   title: {
     default: 'Tech Minds IT Solutions | IT company in Nellore - Software company in Nellore',
     template: '%s | Tech Minds IT Solutions',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     'IT internships Nellore',
     'fresher jobs Nellore',
   ],
-  authors: [{ name: 'Tech minds IT Solutions', url: 'https://techsparkignite.com' }],
+  authors: [{ name: 'Tech minds IT Solutions', url: 'https://techmindsit.com' }],
   creator: 'Tech minds IT Solutions',
   publisher: 'Tech minds IT Solutions',
   robots: {
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: 'https://techsparkignite.com',
+    url: 'https://techmindsit.com',
     siteName: 'Tech minds IT Solutions',
     title: 'Tech minds IT Solutions — Web, App, CRM & Digital Marketing',
     description:
@@ -81,8 +81,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@TechSparkIgnite',
-    creator: '@TechSparkIgnite',
+    site: '@TechMindsIT',
+    creator: '@TechMindsIT',
     title: 'Tech minds IT Solutions — Web, App, CRM & Digital Marketing',
     description:
       'Premium web development, mobile app development, CRM products, and digital marketing services in Nellore, Andhra Pradesh.',
@@ -99,20 +99,20 @@ const jsonLd = {
   '@graph': [
     {
       '@type': 'Organization',
-      '@id': 'https://techsparkignite.com/#organization',
+      '@id': 'https://techmindsit.com/#organization',
       name: 'Tech Minds IT Solutions',
       alternateName: 'Tech Minds IT Solutions',
-      url: 'https://techsparkignite.com',
+      url: 'https://techmindsit.com',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://techsparkignite.com/images/logo.png',
+        url: 'https://techmindsit.com/images/logo.png',
         width: 512,
         height: 512,
       },
       sameAs: [
-        'https://twitter.com/TechSparkIgnite',
-        'https://www.linkedin.com/company/techsparkignite',
-        'https://www.instagram.com/techsparkignite',
+        'https://twitter.com/TechMindsIT',
+        'https://www.linkedin.com/company/techmindsit',
+        'https://www.instagram.com/techmindsit',
       ],
       contactPoint: {
         '@type': 'ContactPoint',
@@ -125,10 +125,10 @@ const jsonLd = {
     },
     {
       '@type': 'LocalBusiness',
-      '@id': 'https://techsparkignite.com/#localbusiness',
+      '@id': 'https://techmindsit.com/#localbusiness',
       name: 'Tech Minds IT Solutions',
-      image: 'https://techsparkignite.com/images/logo.png',
-      url: 'https://techsparkignite.com',
+      image: 'https://techmindsit.com/images/logo.png',
+      url: 'https://techmindsit.com',
       telephone: '+91-88862-69665',
       email: 'info@techmindsit.com',
       priceRange: '₹₹',
@@ -166,17 +166,17 @@ const jsonLd = {
     },
     {
       '@type': 'WebSite',
-      '@id': 'https://techsparkignite.com/#website',
-      url: 'https://techsparkignite.com',
+      '@id': 'https://techmindsit.com/#website',
+      url: 'https://techmindsit.com',
       name: 'Tech minds IT Solutions',
       publisher: {
-        '@id': 'https://techsparkignite.com/#organization',
+        '@id': 'https://techmindsit.com/#organization',
       },
       potentialAction: {
         '@type': 'SearchAction',
         target: {
           '@type': 'EntryPoint',
-          urlTemplate: 'https://techsparkignite.com/search?q={search_term_string}',
+          urlTemplate: 'https://techmindsit.com/search?q={search_term_string}',
         },
         'query-input': 'required name=search_term_string',
       },
@@ -219,5 +219,4 @@ export default function RootLayout({
     </html>
   );
 }
-
 

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     canonical: '/services',
   },
   openGraph: {
-    url: 'https://techsparkignite.com/services',
+    url: 'https://techmindsit.com/services',
     title: 'Our Services — Tech minds IT Solutions',
     description:
       'Explore our comprehensive IT services: Web Development, App Development, Digital Marketing, and CRM Products.',
@@ -56,8 +56,9 @@ const servicesJsonLd = {
       item: {
         '@type': 'Service',
         name: 'Web Development',
-        description: 'Custom, responsive websites and web applications built with cutting-edge technologies.',
-        provider: { '@id': 'https://techsparkignite.com/#organization' },
+        description:
+          'Custom, responsive websites and web applications built with cutting-edge technologies.',
+        provider: { '@id': 'https://techmindsit.com/#organization' },
       },
     },
     {
@@ -66,8 +67,9 @@ const servicesJsonLd = {
       item: {
         '@type': 'Service',
         name: 'App Development',
-        description: 'Native and cross-platform mobile apps that deliver exceptional user experiences.',
-        provider: { '@id': 'https://techsparkignite.com/#organization' },
+        description:
+          'Native and cross-platform mobile apps that deliver exceptional user experiences.',
+        provider: { '@id': 'https://techmindsit.com/#organization' },
       },
     },
     {
@@ -76,8 +78,9 @@ const servicesJsonLd = {
       item: {
         '@type': 'Service',
         name: 'Digital Marketing',
-        description: 'Strategic digital marketing that drives traffic, engagement, and conversions.',
-        provider: { '@id': 'https://techsparkignite.com/#organization' },
+        description:
+          'Strategic digital marketing that drives traffic, engagement, and conversions.',
+        provider: { '@id': 'https://techmindsit.com/#organization' },
       },
     },
     {
@@ -86,8 +89,9 @@ const servicesJsonLd = {
       item: {
         '@type': 'Service',
         name: 'CRM Products',
-        description: 'Custom CRM solutions that streamline your sales pipeline and customer management.',
-        provider: { '@id': 'https://techsparkignite.com/#organization' },
+        description:
+          'Custom CRM solutions that streamline your sales pipeline and customer management.',
+        provider: { '@id': 'https://techmindsit.com/#organization' },
       },
     },
   ],
@@ -101,5 +105,4 @@ export default function ServicesPage() {
     </>
   );
 }
-
 

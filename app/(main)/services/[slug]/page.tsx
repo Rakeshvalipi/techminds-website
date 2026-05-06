@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: service.description,
     keywords: [
       service.title,
-      'Tech Spark Ignite',
+      'Tech Minds IT Solutions',
       ...service.featureTags,
       'IT services Nellore',
       'tech solutions India',
@@ -33,8 +33,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: `/services/${slug}`,
     },
     openGraph: {
-      url: `https://techsparkignite.com/services/${slug}`,
-      title: `${service.title} — Tech Spark Ignite`,
+      url: `https://techmindsit.com/services/${slug}`,
+      title: `${service.title} — Tech Minds IT Solutions`,
       description: service.description,
       type: 'article',
       images: [
@@ -42,13 +42,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           url: '/og-image.jpg',
           width: 1200,
           height: 630,
-          alt: `${service.title} — Tech Spark Ignite`,
+          alt: `${service.title} — Tech Minds IT Solutions`,
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${service.title} — Tech Spark Ignite`,
+      title: `${service.title} — Tech Minds IT Solutions`,
       description: service.description,
       images: ['/og-image.jpg'],
     },
@@ -74,7 +74,7 @@ export default async function ServiceDetailsPage({ params }: Props) {
     '@type': 'Service',
     name: service.title,
     description: service.description,
-    provider: { '@id': 'https://techsparkignite.com/#organization' },
+    provider: { '@id': 'https://techmindsit.com/#organization' },
     areaServed: {
       '@type': 'Place',
       name: 'Nellore, Andhra Pradesh, India',

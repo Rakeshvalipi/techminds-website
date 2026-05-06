@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     canonical: '/about',
   },
   openGraph: {
-    url: 'https://techsparkignite.com/about',
+    url: 'https://techmindsit.com/about',
     title: 'About Us — Tech minds IT Solutions',
     description:
       'Learn about Tech minds IT Solutions — a fresh IT company in Nellore delivering modern digital solutions with startup energy.',
@@ -44,11 +44,11 @@ const aboutJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'AboutPage',
   name: 'About Tech minds IT Solutions',
-  url: 'https://techsparkignite.com/about',
+  url: 'https://techmindsit.com/about',
   description:
     'Learn about Tech minds IT Solutions — a fresh IT company in Nellore, Andhra Pradesh delivering web development, app development, CRM products, and digital marketing.',
   mainEntity: {
-    '@id': 'https://techsparkignite.com/#organization',
+    '@id': 'https://techmindsit.com/#organization',
   },
 };
 
@@ -60,5 +60,4 @@ export default function AboutPage() {
     </>
   );
 }
-
 

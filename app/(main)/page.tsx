@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    url: 'https://techsparkignite.com',
+    url: 'https://techmindsit.com',
     title: 'Tech minds IT Solutions — Web, App, CRM & Digital Marketing',
     description:
       'Premium web development, mobile app development, CRM products, and digital marketing services in Nellore, Andhra Pradesh.',
@@ -49,18 +49,18 @@ const homeJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebPage',
   name: 'Tech minds IT Solutions — Home',
-  url: 'https://techsparkignite.com',
+  url: 'https://techmindsit.com',
   description:
     'Premium web development, mobile app development, CRM products, and digital marketing services in Nellore, Andhra Pradesh.',
   mainEntity: {
     '@type': 'Organization',
     name: 'Tech minds IT Solutions',
-    url: 'https://techsparkignite.com',
-    logo: 'https://techsparkignite.com/images/logo.png',
+    url: 'https://techmindsit.com',
+    logo: 'https://techmindsit.com/images/logo.png',
     sameAs: [
-      'https://twitter.com/TechSparkIgnite',
-      'https://www.linkedin.com/company/techsparkignite',
-      'https://www.instagram.com/techsparkignite',
+      'https://twitter.com/TechMindsIT',
+      'https://www.linkedin.com/company/techmindsit',
+      'https://www.instagram.com/techmindsit',
     ],
   },
 };
@@ -73,5 +73,4 @@ export default function HomePage() {
     </>
   );
 }
-
 

@@ -24,8 +24,8 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
     ],
-    sitemap: 'https://techsparkignite.com/sitemap.xml',
-    host: 'https://techsparkignite.com',
+sitemap: 'https://techmindsit.com/sitemap.xml',
+host: 'https://techmindsit.com',
   };
 }
 

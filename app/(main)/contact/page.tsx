@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     canonical: '/contact',
   },
   openGraph: {
-    url: 'https://techsparkignite.com/contact',
+    url: 'https://techmindsit.com/contact',
     title: 'Contact Us — Tech Minds IT Solutions',
     description:
       'Get in touch with Tech Minds IT Solutions for premium IT services in Nellore, Andhra Pradesh.',
@@ -46,11 +46,11 @@ const contactJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'ContactPage',
   name: 'Contact Tech Minds IT Solutions',
-  url: 'https://techsparkignite.com/contact',
+  url: 'https://techmindsit.com/contact',
   description:
     'Get in touch with Tech Minds IT Solutions for web development, app development, CRM products, and digital marketing services.',
   mainEntity: {
-    '@id': 'https://techsparkignite.com/#localbusiness',
+    '@id': 'https://techmindsit.com/#localbusiness',
   },
 };
 
@@ -62,5 +62,4 @@ export default function ContactPage() {
     </>
   );
 }
-
 
